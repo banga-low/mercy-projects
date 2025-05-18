@@ -1,0 +1,86 @@
+ 
+
+.landing-container {
+  min-height: 100vh;
+  background-color: #ffe3ea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.landing-content {
+  width: 100%;
+  max-width: 28rem;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing-title {
+  font-size: 2.25rem;  
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.landing-subtitle {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #b91c1c;
+}
+
+.landing-image-container {
+  margin-bottom: 1.5rem;
+  width: 14rem;  
+  height: 14rem;
+}
+
+.landing-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.landing-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.landing-button {
+  color: white;
+  padding: 0.4rem 0.8rem;  
+  border-radius: 0.25rem;  
+  font-size: 0.9rem;  
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.login-button {
+  background-color: #2563eb;
+}
+
+.login-button:hover {
+  background-color: #1d4ed8;
+}
+
+.signup-button {
+  background-color: #7c3aed;
+}
+
+.signup-button:hover {
+  background-color: #6d28d9;
+}
+
+.button-spacer {
+  height: 0.5rem;
+}
